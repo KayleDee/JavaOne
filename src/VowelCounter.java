@@ -16,15 +16,15 @@ public class VowelCounter {
         for (int i = 0; i < phrase.length(); i++) {
             char currentChar = phrase.charAt(i);
             if (currentChar == 'a') {
-                a = 1;
+                a += 1;
             } else if (currentChar == 'e') {
-                e = 1;
+                e += 1;
             } else if (currentChar == 'i') {
-                ii = 1;
+                ii += 1;
             } else if (currentChar == 'o') {
-                o = 1;
+                o += 1;
             } else if (currentChar == 'u') {
-                u = 1;
+                u += 1;
             }
         }
         // Add up each vowel and print the total
